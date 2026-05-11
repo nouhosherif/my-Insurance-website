@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Liberia Auto Repair Insurance</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f4f4f4;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #0b3d91;
+      color: white;
+      padding: 20px 10%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+    }
+
+    header h1 {
+      font-size: 24px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1487754180451-c456f719a1fc?q=80&w=1600&auto=format&fit=crop');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 120px 10%;
+    }
+
+    .hero h2 {
+      font-size: 52px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #ff6600;
+      color: white;
+      padding: 14px 28px;
+      border-radius: 5px;
+      text-decoration: none;
+      margin: 10px;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 70px 10%;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 36px;
+      color: #0b3d91;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .feature-card {
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .plans {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .plan-card {
+      background: white;
+      border-radius: 10px;
+      padding: 30px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .plan-card h3 {
+      color: #0b3d91;
+      margin-bottom: 15px;
+    }
+
+    .price {
+      font-size: 42px;
+      color: #ff6600;
+      margin: 15px 0;
+    }
+
+    .about {
+      background: white;
+      border-radius: 10px;
+      padding: 40px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .contact-form {
+      max-width: 600px;
+      margin: auto;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 14px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .contact-form button {
+      background: #0b3d91;
+      color: white;
+      padding: 14px 25px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    footer {
+      background: #0b3d91;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    @media(max-width: 768px) {
+      .hero h2 {
+        font-size: 36px;
+      }
+
+      nav {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Liberia Auto Repair Insurance</h1>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#plans">Plans</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h2>Pay Monthly. We Fix Your Car.</h2>
+    <p>Affordable car repair insurance for drivers and businesses across Liberia.</p>
+
+    <a href="#plans" class="btn">View Plans</a>
+    <a href="#contact" class="btn">Get Started</a>
+  </section>
+
+  <section id="services">
+    <h2 class="section-title">Why Choose Us?</h2>
+
+    <div class="features">
+      <div class="feature-card">
+        <h3>Affordable Monthly Plans</h3>
+        <p>Pay small monthly fees instead of large repair bills.</p>
+      </div>
+
+      <div class="feature-card">
+        <h3>Trusted Partner Garages</h3>
+        <p>We work with approved repair shops across Liberia.</p>
+      </div>
+
+      <div class="feature-card">
+        <h3>Fast Repair Approval</h3>
+        <p>Quick inspection and repair authorization process.</p>
+      </div>
+
+      <div class="feature-card">
+        <h3>Nationwide Vision</h3>
+        <p>Expanding repair protection services across all counties.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="plans">
+    <h2 class="section-title">Our Repair Plans</h2>
+
+    <div class="plans">
+      <div class="plan-card">
+        <h3>Basic Plan</h3>
+        <div class="price">$25</div>
+        <p>Minor engine repairs</p>
+        <p>Brake repairs</p>
+        <p>Battery support</p>
+        <p>Electrical faults</p>
+      </div>
+
+      <div class="plan-card">
+        <h3>Standard Plan</h3>
+        <div class="price">$40</div>
+        <p>Engine repair</p>
+        <p>Gearbox support</p>
+        <p>Suspension repair</p>
+        <p>Minor accident repair</p>
+      </div>
+
+      <div class="plan-card">
+        <h3>Premium Plan</h3>
+        <div class="price">$70</div>
+        <p>Major engine repairs</p>
+        <p>Towing service</p>
+        <p>Accident coverage</p>
+        <p>Priority support</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2 class="section-title">About Us</h2>
+
+    <div class="about">
+      <p>
+        Liberia Auto Repair Insurance is a modern vehicle repair protection company designed to help car owners avoid expensive repair costs. Customers pay affordable monthly fees while we partner with trusted garages to repair their vehicles quickly and professionally.
+      </p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 class="section-title">Contact Us</h2>
+
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <input type="tel" placeholder="Phone Number" required>
+      <textarea rows="5" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2026 Liberia Auto Repair Insurance. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    const form = document.querySelector('.contact-form');
+
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert('Message submitted successfully!');
+      form.reset();
+    });
+  </script>
+
+</body>
+</html>
